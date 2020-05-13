@@ -2,6 +2,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import React from "react";
 import {Section1} from "./Section1";
 
+require('dotenv').config()
 
 const pluginWrapper = () => {
     require('../static/fullpage.scrollHorizontally.min')
@@ -10,11 +11,11 @@ const pluginWrapper = () => {
 export const Fullpage = () => (
     <ReactFullpage
         //fullpage options
-        licenseKey = {}
+        licenseKey = {process.env.LICENCE}
         scrollingSpeed = {1000} /* Options here */
         pluginWrapper={pluginWrapper}
         scrollHorizontally = {true}  /* Because we are using the extension */
-        scrollHorizontallyKey = {}
+        scrollHorizontallyKey = {process.env.LICENCE}
 
         render={({ state, fullpageApi }) => {
             return (
