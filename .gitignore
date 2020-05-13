@@ -2,5 +2,6 @@
 .idea/
 package-lock.json
 yarn.lock
-*.txt
+cred.txt
 node_modules
+/node_modules/
