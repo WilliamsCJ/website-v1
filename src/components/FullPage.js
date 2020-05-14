@@ -15,6 +15,9 @@ export const Fullpage = () => (
         pluginWrapper={pluginWrapper}
         scrollHorizontally = {true}  /* Because we are using the extension */
         scrollHorizontallyKey = {process.env.REACT_APP_KEY}
+        navigation = {true}
+        navigationTooltips = {['who is cj williams?', 'where is cj williams?', 'how do i talk to cj williams?']}
+        slidesNaviation = {true}
 
         render={({ state, fullpageApi }) => {
             return (
