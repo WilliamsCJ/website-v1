@@ -14,7 +14,7 @@ export const Fullpage = () => (
         scrollingSpeed = {1000} /* Options here */
         pluginWrapper={pluginWrapper}
         scrollHorizontally = {true}  /* Because we are using the extension */
-        scrollHorizontallyKey = {process.env.REACT_APP_LICENCE}
+        scrollHorizontallyKey = {process.env.REACT_APP_KEY}
 
         render={({ state, fullpageApi }) => {
             return (
