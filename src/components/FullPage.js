@@ -1,9 +1,7 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import React from "react";
-import {Section1} from "./Section1";
 
 require('dotenv').config()
-console.log(process.env.LICENCE);
 
 const pluginWrapper = () => {
     require('../static/fullpage.scrollHorizontally.min')
@@ -12,7 +10,7 @@ const pluginWrapper = () => {
 export const Fullpage = () => (
     <ReactFullpage
         //fullpage options
-        licenseKey = {process.env.LICENCE}
+        licenseKey = {process.env.REACT_APP_LICENCE}
         scrollingSpeed = {1000} /* Options here */
         pluginWrapper={pluginWrapper}
         scrollHorizontally = {true}  /* Because we are using the extension */
@@ -38,12 +36,18 @@ export const Fullpage = () => (
                         </div>
                     </div>
                     <div className="section">
-                        <h2>is on social media</h2>
-                        <a href="github.com">GITHUB</a>
+                        <h2>has social media</h2>
+                        <a href="https://github.com/CJWilliams20">GITHUB</a>
                         <p/>
-                        <a href="github.com">LINKEDIN</a>
+                        <a href="https://www.linkedin.com/in/cjwilliams20/">LINKEDIN</a>
                         <p/>
-                        <a href="github.com">TWITTER</a>
+                        <a href="https://twitter.com/CJ___Williams">TWITTER</a>
+                        <p/>
+                        <a href="https://medium.com/@cj_williams">MEDIUM</a>
+                    </div>
+                    <div className="section">
+                        <h2>wants to talk</h2>
+                        <a href="mailto:contact@cjwilliams.io">contact@cjwilliams.io</a>
                     </div>
                 </ReactFullpage.Wrapper>
             );
