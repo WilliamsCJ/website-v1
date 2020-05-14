@@ -3,6 +3,7 @@ import React from "react";
 import {Section1} from "./Section1";
 
 require('dotenv').config()
+console.log(process.env.LICENCE);
 
 const pluginWrapper = () => {
     require('../static/fullpage.scrollHorizontally.min')
