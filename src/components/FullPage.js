@@ -1,6 +1,8 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import React from "react";
 
+import "./overrides.css";
+
 require('dotenv').config()
 
 const pluginWrapper = () => {

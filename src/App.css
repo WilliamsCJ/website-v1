@@ -59,11 +59,6 @@ a {
   position: relative;
   top: 40vh;
   zIndex: 100;
-
-}
-
-.fp-sr-only {
-  background: black;
 }
 
 @keyframes App-logo-spin {
