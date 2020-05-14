@@ -27,7 +27,8 @@ export const Fullpage = () => (
                             <p>a student at the University of St Andrews</p>
                         </div>
                         <div className="slide" data-anchor="slide2">
-                            <p>a freelance software developer</p>
+                            {/*<p>a freelance software developer</p>*/}
+                            <p>{process.env.LICENCE}</p>
                         </div>
                         <div className="slide" data-anchor="slide3">
                             <p>looking for internships</p>
