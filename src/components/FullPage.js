@@ -1,7 +1,7 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import React from "react";
 
-import "./overrides.css";
+// require("./overrides.css");
 
 require('dotenv').config()
 
@@ -17,7 +17,7 @@ export const Fullpage = () => (
         pluginWrapper={pluginWrapper}
         scrollHorizontally = {true}  /* Because we are using the extension */
         scrollHorizontallyKey = {process.env.REACT_APP_KEY}
-        navigation = {true}
+        navigation = {false}
         // anchors= {['ABOUT', 'SOCIAL', 'CONTACT']}
         navigationTooltips = {['HI', 'ABOUT', 'WORK', 'SOCIAL', 'CONTACT']}
         showActiveTooltip = {false}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import './components/overrides.css'
 import {Fullpage} from "./components/FullPage";
 import {Top} from "./components/Top"
 import {Bottom} from "./components/Bottom"
