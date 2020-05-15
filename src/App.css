@@ -34,8 +34,15 @@ h1 {
   margin: 0 0 0 0;
 }
 
-h2, p {
+h2 {
   font-family: 'Manrope', sans-serif;
+  font-size: 5vw;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 3vw;
 }
 
 .top {
@@ -59,15 +66,47 @@ a {
   color: black;
 }
 
-.section {
-  right: 15vw;
-}
+/*#s1 {*/
+/*  top: -2.5vh;*/
+/*}*/
+
+/*#s2 {*/
+/*  top: -7vh;*/
+/*}*/
+
+/*#s3 {*/
+/*  top: -1.5%;*/
+/*}*/
+
+/*#s4 {*/
+/*  top: -2%;*/
+/*}*/
+
+/*#s5 {*/
+/*  top: -1%;*/
+/*}*/
 
 .sub {
   position: relative;
-  top: 40vh;
-  zIndex: 100;
+  top: 45%;
 }
+
+h3 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 5vw;
+  font-weight: 600;
+  margin: 0 0 0 0;
+}
+
+/*.s2 {*/
+/*  position: relative;*/
+/*  top: -20vh;*/
+/*}*/
+
+/*.s3 {*/
+/*  position: relative;*/
+/*  top: -10vh;*/
+/*}*/
 
 @keyframes App-logo-spin {
   from {

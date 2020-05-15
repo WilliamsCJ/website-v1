@@ -3,4 +3,14 @@
 .fp-slidesNav ul li a span,
 .fp-slidesNav ul li a span {
     background-color: black;
+    z-index: 100;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+}
+
+#fp-nav {
+    top: 7vh;
 }

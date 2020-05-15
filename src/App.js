@@ -5,16 +5,15 @@ import {Top} from "./components/Top"
 import {Bottom} from "./components/Bottom"
 
 function App() {
-
-  return (
+    return (
     <div className="App">
         <header className="App-header">
-            <Top />
             <Fullpage />
+            <Top />
             <Bottom />
         </header>
     </div>
-  );
+    );
 }
 
 export default App;
